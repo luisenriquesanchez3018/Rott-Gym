@@ -1,0 +1,20 @@
+@media screen and (min-width: 992px) {
+    .row{
+        background-color: #0b0136;
+    }
+    .menu li{
+        background-color: rgb(154, 87, 65);
+        font-size: 1.5rem;
+    }
+    #texto p{
+        font-size: 1rem;
+        color: darkred;
+    }
+
+    .responsivo{
+        width: 33.33%;
+    }
+    #lateral{
+        width: 33.3333%;
+    }
+}

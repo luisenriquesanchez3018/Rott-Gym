@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" type="image/x-icon" href="iconos/favicon.ico">
+    <title>Rott Gym</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-0">
+        <nav class="container">
+            <a class="navbar-brand" href="#">
+                <img id="Logotipo" src="iconos/favicon_io (1)/favicon.ico" alt="Logo">
+                <span class="ms-3 d-none d-md-inline">Rott Gym</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#productos">Productos</a>
+                    <a class="nav-link" href="#testimonios">Testimonios</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="container py-5 mt-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="display-4">Bienvenido a Rott Gym</h2>
+                <p class="lead">Equipos y accesorios de gimnasio de alta calidad para tus entrenamientos.</p>
+                <a href="#productos" class="btn btn-primary">Ver Productos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="container py-5">
+        <h2 class="text-center">Productos Destacados</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenes/rack-rectangular-para-barras-con-peso-v0-1-960-720.jpeg" class="card-img-top" alt="Pesas y Mancuernas">
+                    <div class="card-body">
+                        <h5 class="card-title">Pesas y Mancuernas</h5>
+                        <p class="card-text">Las mejores pesas y mancuernas para tus ejercicios de fuerza.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenes/running-on-a-treadmill-group-of-young-sportive-people-have-crossfit-day-indoors-in-gym-photo.jpg" class="card-img-top" alt="Máquinas de Cardio">
+                    <div class="card-body">
+                        <h5 class="card-title">Máquinas de Cardio</h5>
+                        <p class="card-text">Equipos de cardio para mantener tu corazón saludable.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenes/Gym Accesorios.jpg" class="card-img-top" alt="Accesorios de Gimnasio">
+                    <div class="card-body">
+                        <h5 class="card-title">Accesorios de Gimnasio</h5>
+                        <p class="card-text">Todo tipo de accesorios para complementar tus entrenamientos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Testimonios</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-item">
+                        <p>"Los equipos de Rott Gym han transformado mi rutina de ejercicios. ¡Muy recomendables!"</p>
+                        <h4>- Cliente Satisfecho</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-item">
+                        <p>"Excelente calidad y servicio al cliente. Siempre compro mis accesorios aquí."</p>
+                        <h4>- Usuario Feliz</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Rott Gym. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
